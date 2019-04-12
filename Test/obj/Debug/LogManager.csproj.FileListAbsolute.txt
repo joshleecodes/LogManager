@@ -1,0 +1,7 @@
+C:\Users\joshua.lee\source\repos\Test\Test\bin\Debug\Test.exe.config
+C:\Users\joshua.lee\source\repos\Test\Test\bin\Debug\Test.exe
+C:\Users\joshua.lee\source\repos\Test\Test\bin\Debug\Test.pdb
+C:\Users\joshua.lee\source\repos\Test\Test\obj\Debug\LogManager.csprojAssemblyReference.cache
+C:\Users\joshua.lee\source\repos\Test\Test\obj\Debug\LogManager.csproj.CoreCompileInputs.cache
+C:\Users\joshua.lee\source\repos\Test\Test\obj\Debug\Test.exe
+C:\Users\joshua.lee\source\repos\Test\Test\obj\Debug\Test.pdb

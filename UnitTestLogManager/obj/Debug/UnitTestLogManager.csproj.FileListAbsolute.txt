@@ -1,0 +1,17 @@
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\UnitTestLogManager.dll
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\UnitTestLogManager.pdb
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Test.exe
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Test.pdb
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Test.exe.config
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\obj\Debug\UnitTestLogManager.csprojAssemblyReference.cache
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\obj\Debug\UnitTestLogManager.csproj.CoreCompileInputs.cache
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\obj\Debug\UnitTestLogManager.csproj.CopyComplete
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\obj\Debug\UnitTestLogManager.dll
+C:\Users\joshua.lee\source\repos\Test\UnitTestLogManager\obj\Debug\UnitTestLogManager.pdb
