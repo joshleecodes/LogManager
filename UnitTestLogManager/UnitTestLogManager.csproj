@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="DirectoryTesting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringSplitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

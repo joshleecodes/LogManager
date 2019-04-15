@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    public class FileHandler
+    public class FileHandler : IFileHandler
     {
-        public static List<string> GetFileList(string directoryInput)
+        public List<string> GetFileList(string directoryInput)
         {
              return Directory.EnumerateFiles(directoryInput).ToList();
         }
 
-        public static void DisplayFileNames(List<string> fileList)
+        public void DisplayFileNames(List<string> fileList)
         {
             if (fileList.Any())
             {
@@ -30,7 +30,7 @@ namespace Test
             }
         }
 
-        public static void FindFilesContaining(List<string> fileList, string[] keywords)
+        public void FindFilesContaining(List<string> fileList, string[] keywords)
         {
             foreach (var file in fileList) //loop through all fileList
             {
@@ -50,13 +50,14 @@ namespace Test
             }
         }
 
-        public static List<string> FindFileDirectory(List<string> fileList, string[] fileNames)
+        public List<string> FindFileDirectory(List<string> fileList, string[] fileNames)
         {
             List<string> fileDirectories = new List<string>();
             foreach (var file in fileList)
             {
                 for (int i = 0; i < fileNames.Length; i++)
                 {
+                    Console.WriteLine(Path.GetFileName(file));
                     if (fileNames[i] == Path.GetFileName(file))
                     {
                         fileDirectories.Add(Path.GetFullPath(file));
@@ -66,7 +67,7 @@ namespace Test
             return fileDirectories;
         }
 
-        public static void AddTimeStamp(List<string> fileDirectoryList)
+        public void AddTimeStamp(List<string> fileDirectoryList)
         {
             string currentTimeStamp = DateTime.Now.ToString();
             foreach (var fileDirectory in fileDirectoryList)
@@ -78,7 +79,7 @@ namespace Test
             }
         }
 
-        public static List<string> RetrieveEmptyFiles(List<string> fileList)
+        public List<string> RetrieveEmptyFiles(List<string> fileList)
         {
             List<string> emptyFilesList = new List<string>();
             foreach (var file in fileList) //Loop through fileList
@@ -92,7 +93,7 @@ namespace Test
             return emptyFilesList;
         }
 
-        public static void RemoveEmptyFiles(List<string> fileList)
+        public void RemoveEmptyFiles(List<string> fileList)
         {
             foreach (var file in fileList) //Loop through fileList
             {

@@ -10,19 +10,19 @@ namespace Test
 {
     public class SystemManager
     {
-        public static void DisplayMenu()
+        public void DisplayMenu()
         {
             Console.WriteLine("\nPlease choose an option by entering one of the numbers listed below:");
             Console.WriteLine("\n1. Display all files in directory \n2. Search for a file containing a keyword " +
                               "\n3. Add timestamp to a file \n4. Remove empty logs \n5. Change active directory \n6. Exit\n");
         }
 
-        public static void UpdateDirectory(string directoryInput)
+        public void UpdateDirectory(string directoryInput)
         {
             Program.Directory = directoryInput;
         }
 
-        public static bool IsValidDirectory(string directoryInput)
+        public bool IsValidDirectory(string directoryInput)
         {
             if (!string.IsNullOrEmpty(directoryInput) && Directory.Exists(directoryInput))
             {
@@ -52,20 +52,10 @@ namespace Test
             }        
         }
 
-        public static string[] MultipleInputCheck(string fileNameInput)
+        public string[] MultipleInputCheck(string fileNameInput)
         {
-            string[] fileNames;
-            if (fileNameInput.Contains(","))
-            {
-                fileNames = fileNameInput.Split(',');
+                string[] fileNames = fileNameInput.Split(',');
                 return fileNames;
-            }
-            else
-            {
-                fileNames = new string[1];
-                fileNames[0] = fileNameInput;
-                return fileNames;
-            }
         }
     }
 }
