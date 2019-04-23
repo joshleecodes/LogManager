@@ -5,3 +5,10 @@ C:\Users\joshua.lee\source\repos\Test\Test\obj\Debug\LogManager.csprojAssemblyRe
 C:\Users\joshua.lee\source\repos\Test\Test\obj\Debug\LogManager.csproj.CoreCompileInputs.cache
 C:\Users\joshua.lee\source\repos\Test\Test\obj\Debug\Test.exe
 C:\Users\joshua.lee\source\repos\Test\Test\obj\Debug\Test.pdb
+C:\Users\joshl\Documents\GitHub\LogManager\Test\bin\Debug\Test.exe.config
+C:\Users\joshl\Documents\GitHub\LogManager\Test\bin\Debug\Test.exe
+C:\Users\joshl\Documents\GitHub\LogManager\Test\bin\Debug\Test.pdb
+C:\Users\joshl\Documents\GitHub\LogManager\Test\obj\Debug\LogManager.csprojAssemblyReference.cache
+C:\Users\joshl\Documents\GitHub\LogManager\Test\obj\Debug\LogManager.csproj.CoreCompileInputs.cache
+C:\Users\joshl\Documents\GitHub\LogManager\Test\obj\Debug\Test.exe
+C:\Users\joshl\Documents\GitHub\LogManager\Test\obj\Debug\Test.pdb

@@ -97,8 +97,7 @@ namespace Test
                         Console.WriteLine("Selection invalid, please type a valid option listed above.");
                         break;
                 }
-            }
-            
+            }            
         }
     }
 }
